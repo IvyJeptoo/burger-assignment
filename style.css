@@ -115,7 +115,7 @@ margin: 15px 15px 15px 15px
     display: flex;
     flex-direction: row;
     padding-bottom: 30px;
-
+    
 
 }
 .menu1{
@@ -141,8 +141,15 @@ gap: 70px;
         float: right;
         display: flex;
         flex-direction: row;
+        justify-content: space-evenly;
+        height: 100%;
+        width: 100%;
     
     }
+.image1{
+    height: 500px;
+    height: 100%;
+}
 .menu4{
     border-color: silver;
     box-shadow: 0 4px 4px 0 rgba(0,0,0,0.1),0 4px 12px 0 rgba(0,0,0,0.5);
@@ -159,3 +166,12 @@ gap: 70px;
     box-shadow: 0 4px 4px 0 rgba(0,0,0,0.1),0 4px 12px 0 rgba(0,0,0,0.5);
     padding-right: 40px;
 }    
+.double{
+    float: right;
+    background-image: url(image8.png) url(image8_2.png);
+    background-position: right;
+    background-repeat: no-repeat;
+}
+.double h1{
+    padding-bottom: 80px;
+}
