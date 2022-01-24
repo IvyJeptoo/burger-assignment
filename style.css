@@ -69,7 +69,7 @@ span {
 button {
   background-color: yellow;
 }
-.menuone {
+/* .menuone {
   display: flex;
   padding-bottom: 50px;
   width: 40%;
@@ -77,15 +77,47 @@ button {
 .menutwo {
   display: flex;
   flex-direction: row;
-  width: 40%;
-}
+  width: 40%; */
+/* } */
 .menu {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  row-gap: 50px;
+  column-gap: 20px;
+  margin-top: 30px;
 }
-.about {
+.menuone {
+  display: flex;
+  flex-direction: row;
+  text-align: centre;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0, 1), 0 4px 12px 0 rgba(0, 0, 0, 5);
+  border: none;
+  border-radius: 20px;
+  padding: 0 10px;
+  width: 25%;
+}
+.menutwo {
+  display: flex;
+  flex-direction: row;
+  text-align: centre;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0, 1), 0 4px 12px 0 rgba(0, 0, 0, 5);
+  border: none;
+  border-radius: 20px;
+  padding: 0 10px;
+  width: 25%;
+}
+/* .about {
   background-color: #e1ebe6;
-}
+} */
 .images {
   float: right;
+}
+#image1 {
+  position: absolute;
+}
+#image2 {
+  position: relative;
+}
+.section {
+  background-color: #e1ebe6;
 }
