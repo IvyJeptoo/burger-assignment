@@ -86,3 +86,6 @@ button {
 .about {
   background-color: #e1ebe6;
 }
+.images {
+  float: right;
+}
