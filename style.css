@@ -72,10 +72,14 @@ button {
 .menuone {
   display: flex;
   padding-bottom: 50px;
+  width: 40%;
 }
 .menutwo {
   display: flex;
+  flex-direction: row;
+  width: 40%;
 }
 .menu {
-  height: 2rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
 }
