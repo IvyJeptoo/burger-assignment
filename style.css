@@ -83,3 +83,6 @@ button {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
 }
+.about {
+  background-color: #e1ebe6;
+}
