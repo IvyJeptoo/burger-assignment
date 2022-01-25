@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto:wght@300;700&display=swap");
+
 * {
   padding: 0px;
   margin: 0px;
@@ -38,9 +40,10 @@ span {
   padding-bottom: 300px;
 }
 .offer {
-  background-color: whitesmoke;
+  background-color: burlywood;
   display: flex;
   flex-direction: row;
+  height: 300px;
 }
 
 .firstoffer {
@@ -87,9 +90,24 @@ button {
   display: flex;
   flex-direction: row;
 }
+.menuone img {
+  width: auto;
+  height: 200px;
+}
+.menutwo img {
+  width: auto;
+  height: 200px;
+}
 .menutwo {
   display: flex;
   flex-direction: row;
+}
+.row1 {
+  text-align: centre;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0, 1), 0 4px 12px 0 rgba(0, 0, 0, 5);
+  border: none;
+  border-radius: 20px;
+  padding: 0 10px;
 }
 /* .menuone {
   display: flex;
@@ -123,6 +141,19 @@ button {
 #image2 {
   position: relative;
 }
-.section {
-  background-color: #e1ebe6;
+.list-items {
+  list-style: none;
+}
+.spacing {
+  padding: 5px;
+}
+.footer-2 {
+  padding: 0 50px;
+  width: 100vw;
+  height: 40px;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer-2 p {
+  font-family: "Roboto", sans-serif;
 }
