@@ -154,3 +154,35 @@ button {
   display: flex;
   flex-direction: row;
 }
+.footer-1 {
+  height: 180px;
+  background-color: #e1ebe6;
+}
+.flex-1 {
+  flex: 1;
+  align-items: center;
+  padding-left: 50px;
+}
+.d-flex-column {
+  display: flex;
+  flex-direction: column;
+}
+.flex-1-5 {
+  flex: 1.5;
+  justify-content: center;
+  padding-left: 25px;
+}
+.flex-1-5 h3 {
+  font-family: "Roboto", sans-serif;
+}
+
+.flex-1-5 ul li {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+}
+.flex-1 h3 {
+  padding-left: 10px;
+  font-family: "Roboto", sans-serif;
+  font-size: 25px;
+  font-weight: 700;
+}
