@@ -190,3 +190,20 @@ button {
   background-color: #f6b400;
   height: 100vh;
 }
+.double-decker-section {
+  background-color: #e1ebe6;
+  height: 100vh;
+  padding: 80px;
+}
+.desc-normal {
+  color: black;
+  font-weight: 700;
+  font-size: 26px;
+  font-family: "Roboto", sans-serif;
+}
+.desc-yellow {
+  color: #f6b400;
+  font-weight: 700;
+  font-size: 32px;
+  font-family: "Roboto", sans-serif;
+}
