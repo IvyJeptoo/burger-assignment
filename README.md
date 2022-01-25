@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Author
 
 Ivy Jeptoo
@@ -34,3 +35,7 @@ The project is under the [MIT](license) license.
 ### live site
 
 view [live](https://IvyJeptoo/assignment/)
+=======
+# burger-assignment
+make a burger template
+>>>>>>> b162539c53dfd6afb3ff6579d2d52bb969ec5fb6
