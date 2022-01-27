@@ -6,23 +6,29 @@
   box-sizing: border-box;
 }
 
-#navbar {
-  float: right;
-  height: 200px;
+.container {
+  width: 100%;
+  height: 100vh;
   background-image: url(img/image1.png);
+  background-position: right;
+  background-size: contain;
+  padding-left: 8%;
+  padding-right: 8%;
   background-repeat: no-repeat;
-  background-size: cover;
-  background-color: yellow;
-  height: 34rem;
-  align-content: center;
 }
-#navbar a {
-  display: table;
-  float: right;
-  padding: 0px 60px;
+.navbar {
+  height: 12%;
+  display: flex;
+  align-items: center;
+}
+.items {
+  flex: 1;
+  text-align: right;
+}
+.items ul li {
   list-style: none;
-  background-color: yellow;
-  font-weight: bold;
+  display: inline-block;
+  margin-left: 40px;
 }
 
 span {
@@ -35,61 +41,65 @@ span {
   margin: 30px;
 }
 .home h1 {
-  padding-bottom: 80px;
+  padding-bottom: 100px;
+  padding-top: 50px;
+  padding-left: 20px;
 }
 .home h5 {
-  padding-bottom: 300px;
+  padding-bottom: 200px;
+  padding-left: 20px;
 }
-.offer {
-  background-color: burlywood;
+.offers {
   display: flex;
   flex-direction: row;
-  height: 300px;
+
+  justify-content: space-evenly;
+  background-color: #e1ebe6;
+  height: 50vh;
+  padding: 80px;
+}
+.offernumber {
+  width: 200px;
+  margin: 10px;
+  border-radius: 10px;
 }
 
 .firstoffer {
-  border: 1px solid brown;
-  float: right;
-  padding: 40px;
-
-  margin: 10px 5px 15px 20px;
+  width: 250px;
+  height: 200px;
+  margin-right: 50px;
+  border: 1px solid saddlebrown;
+  justify-items: center;
 }
 .secondoffer {
-  border: 1px solid brown;
-  float: right;
-  padding: 40px;
-
-  margin: 10px 5px 15px 20px;
+  height: 230px;
+  width: 300px;
+  margin-right: 50px;
+  border: 1px solid saddlebrown;
 }
 .thirdoffer {
-  border: 1px solid brown;
-  float: right;
-  padding: 40px;
-  border-radius: 15px 15px 15px 15px;
-
-  margin: 15px 15px 15px 15px;
+  width: 250px;
+  height: 200px;
+  margin-right: 50px;
+  border: 1px solid saddlebrown;
 }
 
 button {
   background-color: yellow;
+  margin-left: 50px;
 }
-/* .menuone {
-  display: flex;
-  padding-bottom: 50px;
-  width: 40%;
-}
-.menutwo {
-  display: flex;
-  flex-direction: row;
-  width: 40%; */
-/* } */
+
 .menu {
   display: flex;
   flex-direction: column;
+  margin: 10%;
 }
 .menuone {
   display: flex;
   flex-direction: row;
+  justify-content: space-evenly;
+  padding-bottom: 20px;
+  padding-top: 40px;
 }
 .menuone img {
   width: auto;
@@ -102,6 +112,43 @@ button {
 .menutwo {
   display: flex;
   flex-direction: row;
+  justify-content: space-evenly;
+}
+.menu1 {
+  border: 1px solid grey;
+  border-radius: 25px;
+  box-shadow: 3px 3px 3px grey;
+  text-align: center;
+}
+.menu2 {
+  border: 1px solid grey;
+  border-radius: 25px;
+  box-shadow: 3px 3px 3px grey;
+  text-align: center;
+}
+.menu3 {
+  border: 1px solid grey;
+  border-radius: 25px;
+  box-shadow: 3px 3px 3px grey;
+  text-align: center;
+}
+.menu4 {
+  border: 1px solid grey;
+  border-radius: 25px;
+  box-shadow: 3px 3px 3px grey;
+  text-align: center;
+}
+.menu5 {
+  border: 1px solid grey;
+  border-radius: 25px;
+  box-shadow: 3px 3px 3px grey;
+  text-align: center;
+}
+.menu6 {
+  border: 1px solid grey;
+  border-radius: 25px;
+  box-shadow: 3px 3px 3px grey;
+  text-align: center;
 }
 .row1 {
   text-align: centre;
@@ -110,29 +157,6 @@ button {
   border-radius: 20px;
   padding: 0 10px;
 }
-/* .menuone {
-  display: flex;
-  flex-direction: row;
-  text-align: centre;
-  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0, 1), 0 4px 12px 0 rgba(0, 0, 0, 5);
-  border: none;
-  border-radius: 20px;
-  padding: 0 10px;
-  width: 25%;
-} */
-/* .menutwo {
-  display: flex;
-  flex-direction: row;
-  text-align: centre;
-  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0, 1), 0 4px 12px 0 rgba(0, 0, 0, 5);
-  border: none;
-  border-radius: 20px;
-  padding: 0 10px;
-  width: 25%;
-} */
-/* .about {
-  background-color: #e1ebe6;
-} */
 
 .list-items {
   list-style: none;
@@ -188,18 +212,36 @@ button {
 }
 .discover-section {
   background-color: #f6b400;
-  height: 100vh;
+  height: 80vh;
 }
 .double-decker-section {
   background-color: #e1ebe6;
-  height: 100vh;
-  padding: 80px;
+  height: 80vh;
+  padding: 300px;
+}
+.screenshot {
+  display: flex;
+  flex-direction: row;
+}
+.screenshot2 {
+  position: relative;
+  right: 0;
+  width: 180px;
+  margin: 100px;
+}
+.screenshot1 {
+  position: relative;
+  width: 180px;
+  margin: 100px;
 }
 .desc-normal {
   color: black;
   font-weight: 700;
   font-size: 26px;
   font-family: "Roboto", sans-serif;
+}
+.images {
+  align-items: right;
 }
 .desc-yellow {
   color: #f6b400;
